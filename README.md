@@ -16,6 +16,9 @@
 ## Inspiration?
 ### To listen spotify playlist without paying for subscription or downloading the songs.
 
+## Demo
+[Demo](https://shayanazfar.github.io/Music-Player/)
+
 ## Screenshots:
 <img width="1364" height="1318" alt="shayanazfar github io_Music-Player_" src="https://github.com/user-attachments/assets/9006ceb2-161d-4ada-a8b8-8a7cda59d4a3" />
 <img width="1364" height="1452" alt="shayanazfar github io_Music-Player_ (1)" src="https://github.com/user-attachments/assets/709830ee-894a-4244-89fc-8d4e92ca4249" />
