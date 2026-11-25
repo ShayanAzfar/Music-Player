@@ -53,6 +53,8 @@ h3 {
     margin: 40px;
     height: 4px;
     width: 90%;
+    position: relative;
+    right: 16px;
 }
 
 .progress {
@@ -61,4 +63,56 @@ h3 {
     height: 100%;
     width: 0%;
     transform: width 0.1s linear;
+}
+.duration-wrapper {
+    position: relative;
+    top: -15px;
+    /* right: 16px; */
+    display: flex;
+    justify-content: space-between;
+}
+.player-controls {
+    display: flex;
+    position: relative;
+    top: -15px;
+    left: 110px;
+    /* left: 25%; */
+    width: 200px;
+
+}
+
+.fas {
+    font-size: 30px;
+    color: rgb(129,129,129);
+    margin-right: 30px;
+    user-select: none;
+    cursor: pointer;
+}
+
+.fas:hover {
+    filter: brightness(80%);
+}
+.main-button {
+    font-size: 40px;
+    position: relative;
+    top: -3px;
+}
+
+@media screen and (max-width :376px) {
+    .player.container{
+        width: 95vw;
+    }
+    .img-container{
+        left: 29px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    h3{
+        font-size: 15px;
+    }
+    .player-controls{
+        top: -10px;
+        left: 100px;
+    }
 }
